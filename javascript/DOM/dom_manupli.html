@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><div class="container">
+     <h1>DOM  Manipulation</h1>
+</div>
+   
+
+    <script>
+        // let h2 = document.createElement('h2')
+        // h2.innerText = "This is my js h2"
+        // h2.setAttribute('class','test')
+        // h2.setAttribute('id','testing')
+        // console.log(h2)
+        // console.log(h2.setAttribute('class'))
+        // h2.removeAttribute('class')
+        // console.log(h2)
+    let h2 = document.createElement('h2')
+    h2.innerText='this is my new h2'
+    let container = document.querySelector('.container')
+    // container.append(h2)
+    container.prepend(h2) // container ke phale
+    container.after(h2)
+    container.remove(h2)
+//* EventListners 
+    </script>
+</body>
+</html>
