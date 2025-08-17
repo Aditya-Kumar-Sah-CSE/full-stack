@@ -1,0 +1,12 @@
+what is typescript?
+    Typescript is javascript with syntax for types.
+    
+
+why Typescript?
+    Avoid bugs in development.
+    Increase development speed.
+    Additional features.
+
+How to install ?
+step 1:   npm install -g typescript   
+
